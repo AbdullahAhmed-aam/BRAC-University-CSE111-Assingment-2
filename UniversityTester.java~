@@ -1,0 +1,10 @@
+public class UniversityTester{
+  public static void main(String[] args){
+    
+    University uni = new University();
+    University uni1 = new University();
+    
+    System.out.println(uni);
+    System.out.println(uni1);
+  }
+}
