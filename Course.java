@@ -1,0 +1,16 @@
+public class Course{
+  public String name;
+  public String code;
+  public int cr;
+  
+  public void updateDetails( String x, String y, int a){
+    name=x;
+    code=y;
+    cr=a;
+  }
+  public void displayCourse(){
+    System.out.println("Course Name: "+name);
+    System.out.println("Course Code: "+code);
+    System.out.println("Course Credit: "+cr);
+  }
+}
